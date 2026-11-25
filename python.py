@@ -157,3 +157,84 @@ for i in range(1,6):
      else:
         print("@",end=" ")
 print()'''
+
+'''a='happy birthday' 
+print(a[-4:-7:-1])'''
+
+#with arg with return 
+'''def convert(s):
+    out=""
+    for i in s:
+        if "a"<=i<="z":
+            out+=chr(ord(i)-32)
+        else:
+            out+=i
+    return out
+print(convert(input("enter:"))'''
+
+#with arg without return
+"""def convert(s,out):
+    for i in s:
+        if "a"<=i<="z":
+            out+=chr(ord(i)-32)
+        else:
+            out+=i
+    print(out)
+    return(10)
+print(convert(input("enter:")))"""
+
+
+
+#without arg with return
+"""def convert():
+    s=input("enter:")
+    out=""
+    for i in s:
+        if "a"<=i<="z":
+            out+=chr(ord(i)-32)
+        else:
+            out+=i
+    return out
+print(convert())"""
+
+"""class college():
+    cname="gopalan"
+    cloc="hoodi"""
+'''
+class college():
+    cname="gopalan"
+    cloc="hoodi"
+    s1= college()
+    s1.sname="harish"
+    s1.phno="123456"
+    s2=college()
+    s2.sname="hear"
+    s2.phone="12525254"
+    print(s1.cloc)
+    s1.cloc="kr puram"
+    print("after changing ")
+    print(s1.cloc)
+    print(s2.cloc)
+    print(college.cloc)'''
+
+
+
+'''class college:
+    def __init__(self,name,phone,usn):
+        self.name=name
+        self.phone=phone
+        self.usn=usn
+    def display(self):
+        print(self.name,self.phone,self.usn)
+    def change_name(self,new):
+        self.name=new
+        
+s1=college("harish",854875875,"@123dw")
+s2=college("ram",845875845,"@767sw")
+s1.display()
+s2.display()
+s1.change_name("harish kumar")
+s1.display()'''
+
+
+
